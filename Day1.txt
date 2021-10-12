@@ -1,0 +1,3 @@
+I just read through ch1 and thought of leaving it to the textbook 
+for intro to computer science.
+Waiting for tomorrow to actually spend time coding my Hello World(again)!
