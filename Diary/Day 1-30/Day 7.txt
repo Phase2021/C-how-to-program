@@ -1,0 +1,23 @@
+I always feel ill whenever I need to start doing something.
+So here I am, feeling disinterested in learning C(I'm not gonna lie).
+Yet I got back to C:How to program. It's not that terrifing anymore.
+Ok so starting from //
+// : comments. an explanation to every function which is highly recommended to be written for all functions. They will be ignored by the program.
+#include <stdio.h> : those with # needs to be put at first whenever we code. It's the abbreviation of standard input/output header. 
+This header has the function of printf which belongs to the library of stdio. Will be explained in the further chapter.
+Blank lines and white space: normally ignored.
+記得要用左右{}中括號把function圈起來
+int main(void)
+the () after main is a function. 還是寫中文好了. 總之C可能有一或多個function.但是必定有一個會是main. int是integer整數, 寫在前面代表會回傳一個整數值.
+所有的程式都是從main開始的. 關於回傳值和int會在後面章數ch5解釋. 現在只要知道就放int就對了.
+function也可以[收]資訊. 這裡的void代表main並沒有收任何資訊. 在第14章會有main獲得資訊的範例.
+關於Line 8
+printf( "welcome to c!\n" );
+是叫電腦去做一個動作. 主要是印""裡的字串, 也叫character string, message or literal.
+Argument(引數)是實際上傳給函數的資料.
+printf + () + ; 為一個statement敘述. 所有的敘述都由;結束
+跳脫字元escape sequences: \ 代表跳脫字
+\n 代表 newline
+還有:
+\t, \a, \\, \"以後用到再解釋
+像是如果你想放\在程式裡 就要打\\它才會出現
